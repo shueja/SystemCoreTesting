@@ -4,6 +4,12 @@
 Thank you for volunteering to help us alpha test the new Systemcore, Motioncore, A301, and 18V battery systems. These systems represent a significant change from the hardware and software FTC teams are used to, and as an alpha test, we expect there to be bumps along the road. Some elements of the system, particularly software and documentation, are either not yet finished or are unpolished. We encourage you to share feedback on what feels like it’s missing, or areas where you are stuck or struggling.
 This document links heavily into existing alpha and WPILib documentation in order to avoid repeating material already created. In many cases this existing material is not yet assembled into a cohesive workflow, especially for FTC teams, so it is recommended to refer to linked documents only to complete the steps described and then return to this document rather than proceeding to the next steps in the external reference.
 
+## Battery Safety
+> [!WARNING]
+> The 18V batteries use lithium cells. Do not leave a battery in the dock or leave the system powered on for an extended period. When you are not actively testing, power off the system and remove the battery from the dock; never leave it in the dock or powered on for more than one to two hours. The resulting discharge can lower the battery voltage below the safe recharging threshold and leave the battery permanently unrecoverable.
+>
+> If a battery reaches this unrecoverable state, **do not attempt to bypass the safety protections or manually charge the battery**.
+
 ## Testing Logistics
 The majority of testing communication moving forward will be handled via the GitHub project. This allows all students and mentors participating in testing to view any updates/communication directly rather than forcing a single contact into the position of forwarding e-mail communications. It also allows other members of the community not chosen to participate to follow along.
 
